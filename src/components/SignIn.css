@@ -1,0 +1,47 @@
+.form-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.form-container .left_data {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 400px;
+  margin-right: 250px;
+}
+
+.form-container .left_data h3 {
+  text-align:justify;
+}
+
+.form-container .left_data form {
+  width: 100%;
+}
+
+.form-container .left_data form .form-group {
+  width: 150%;
+  margin-bottom: 15px;
+}
+
+.form-container .left_data form .form-control {
+  width: 150%;
+  border-radius: 20px;
+}
+
+.form-container .left_data form .btn {
+  width: 150%;
+  border-radius: 20px;
+}
+
+.form-container .left_data form .btn-primary {
+  background-color: #0078AA;
+  color: white;
+  border: none;
+}
+
+.form-container .left_data form .btn-primary:hover {
+  background-color: #005c86;
+}
